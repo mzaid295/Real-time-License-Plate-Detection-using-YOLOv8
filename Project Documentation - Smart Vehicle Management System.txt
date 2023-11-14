@@ -1,0 +1,52 @@
+﻿License Plate Detection Using YOLO v8
+
+
+The project involves the annotation of 400 images followed by the implementation of a custom object detection model using YOLOv8. The primary objective is to detect vehicles and extract their number plates. The extracted number plate data is then processed using PyTesseract to convert it into text format. The final output is stored in a CSV file, ensuring that only unique data is saved.
+
+
+Steps Undertaken
+1. Image Annotation
+Annotated 400 images to provide the training data for the custom object detection model.
+Annotations include bounding boxes around vehicles and their corresponding number plates.
+
+
+2. YOLOv8 Model Training
+Utilized the YOLOv8 model for object detection.
+Conducted custom training on annotated images to enable the model to recognize vehicles and their number plates.
+
+
+3. Number Plate Extraction
+Post-detection, the model identifies and extracts the region containing the number plate.
+Implemented PyTesseract to convert the extracted image data into a human-readable text format.
+
+
+4. CSV File Generation
+The extracted text data is saved into a CSV file.
+Each entry in the CSV file is indexed uniquely to maintain data integrity.
+
+
+5. Data Deduplication
+Implemented functionality to ensure that the CSV file only stores unique data.
+Duplicate entries are not rewritten to the CSV file, preventing redundancy.
+
+
+Overall Functionality
+The developed model is capable of:
+
+
+Detecting vehicles and their number plates in images and videos.
+Real-time object detection and data extraction.
+Efficiently processing and converting number plate data using PyTesseract.
+Saving unique extracted text data into a CSV file with a unique index.
+
+
+
+
+Future Improvements
+Explore and implement techniques to enhance model accuracy.
+Integrate real-time video processing capabilities for dynamic environments.
+Optimize code and enhance overall system efficiency.
+
+
+Conclusion
+This project successfully achieves the goal of detecting vehicles and extracting their number plates using YOLOv8 and PyTesseract. The implementation is capable of handling both images and videos, providing a versatile solution for object detection and data extraction in various scenarios.
