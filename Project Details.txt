@@ -1,0 +1,5 @@
+1) Smart Vehicle Management System.
+Use YOLO v5 or V8 to detect the car and buses  in the real time video stream. Can use  pre-trained YOLO models on COCO  dataset for the detection purpose. 
+Develop number  plate  detection model to detect number plate from the detected car. Then apply OCR to  save  the  content  of the number  plate in the excel  sheet. We are supposed  to  use Paddle OCR for  the text extraction purpose. Then extracted number of the car will be saved in the CSV file.
+
+OUTCOMES: In that  project  you will learn  video processing in optimised way.  Will learn that  how to process the  output of pre-trained models.
